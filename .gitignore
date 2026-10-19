@@ -1,0 +1,17 @@
+# library zips are supplied by the user
+libraries/*
+!libraries/README.md
+
+# build output and intermediates
+work/
+dist/
+
+# local tools and environment
+.venv/
+tools/dshost/dshost
+tools/ds/
+tools/ConvertWithMoss.app/
+
+__pycache__/
+*.pyc
+.DS_Store
